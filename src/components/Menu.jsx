@@ -52,23 +52,21 @@ const Menu = ({ onClose }) => {
               cursor: "pointer",
             }}
           >
-            
-              <ScrollLink
-                to="home"
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={500}
+            <ScrollLink
+              to="home"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+            >
+              <Typography
+                variant="h4"
+                sx={{ "&:hover": { color: "darkgreen" } }}
+                onClick={onClose}
               >
-                <Typography
-                  variant="h4"
-                  sx={{ "&:hover": { color: "darkgreen" } }}
-                  onClick={onClose}
-                >
-                  HOME
-                </Typography>
-              </ScrollLink>
-  
+                HOME
+              </Typography>
+            </ScrollLink>
           </motion.div>
           <motion.div
             initial={{ opacity: 0, y: -50 }}
@@ -126,18 +124,18 @@ const Menu = ({ onClose }) => {
               cursor: "pointer",
             }}
           >
-            {/* <Link
-              to="/who_we_are"
+            <RouterLink
+              to="/our_work"
               style={{ textDecoration: "none", color: "black" }}
-            > */}
-            <Typography
-              variant="h4"
-              sx={{ "&:hover": { color: "darkgreen" } }}
-              onClick={onClose}
             >
-              OUR WORK
-            </Typography>
-            {/* </Link> */}
+              <Typography
+                variant="h4"
+                sx={{ "&:hover": { color: "darkgreen" } }}
+                onClick={onClose}
+              >
+                OUR WORK
+              </Typography>
+            </RouterLink>
           </motion.div>
           <motion.div
             initial={{ opacity: 0, y: -50 }}

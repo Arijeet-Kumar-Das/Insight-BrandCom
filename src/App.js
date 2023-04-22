@@ -13,6 +13,7 @@ import CaseStudy from "./pages/CaseStudies/Index";
 import CaseStudy1 from "./pages/CaseStudies/CaseStudy1";
 import CaseStudy2 from "./pages/CaseStudies/CaseStudy2";
 import CaseStudy3 from "./pages/CaseStudies/CaseStudy3";
+import OurWork from "./pages/OurWork";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path="/assam_cancer_care_foundation" element={<CaseStudy1 />} />
         <Route path="/apart" element={<CaseStudy2 />} />
         <Route path="/bajaj" element={<CaseStudy3 />} />
+        <Route path="/our_work" element={<OurWork />} />
       </Routes>
     </div>
   );

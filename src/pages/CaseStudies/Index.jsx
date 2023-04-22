@@ -7,12 +7,19 @@ import Logo2 from "../../assets/APART Logo2.png";
 import Logo3 from "../../assets/path2.png";
 import { Box, Button, Grid, Paper, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
+import CaseStudy4 from "./CaseStudy4";
+import CaseStudy5 from "./CaseStudy5";
+import CaseStudy6 from "./CaseStudy6";
+import CaseStudy7 from "./CaseStudy7";
+import CaseStudy8 from "./CaseStudy8";
+import CaseStudy9 from "./CaseStudy9";
+import CaseStudy10 from "./CaseStudy10";
 
 const Index = () => {
   return (
     <div>
       <Box>
-        <Box sx={{ p: { xs: 10, md: "20px 100px" } }}>
+        {/* <Box sx={{ p: { xs: 10, md: "20px 100px" } }}>
           <Typography
             variant="h1"
             sx={{
@@ -116,7 +123,8 @@ const Index = () => {
               </Paper>
             </Grid>
           </Grid>
-        </Box>
+        </Box> */}
+        <CaseStudy10 />
       </Box>
     </div>
   );

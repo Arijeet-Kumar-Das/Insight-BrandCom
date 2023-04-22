@@ -11,7 +11,6 @@ const CaseStudy2 = () => {
         sx={{
           width: { xs: "100%", sm: "60%" },
           p: { xs: "10px", sm: "20px 100px" },
-          marginTop: "100px",
         }}
       >
         <img src={Logo} alt="" />
